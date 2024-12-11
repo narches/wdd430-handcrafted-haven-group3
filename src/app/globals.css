@@ -1,0 +1,23 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+  --background: #ffffff;
+
+  --black: #071013;
+  --white: #fdfffc;
+  --lightBlue: #3066be;
+    ubuntu: var(--ubuntu)
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
