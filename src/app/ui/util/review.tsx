@@ -98,13 +98,13 @@ function ProductReview({ initialReviews }) {
               ))}
             </Swiper>
           ) : (
-            <p className="text-gray-600">No reviews yet. Be the first to leave one!</p>
+            <p className="text-gray-600">Leave a comment to help us serve you better!</p>
           )}
         </div>
 
         {/* Comment Form */}
         <div className="lg:col-span-2 bg-white shadow p-6 rounded-lg">
-          <h3 className="mb-4 font-semibold text-center text-xl">Leave a Review</h3>
+          <h3 className="mb-4 font-semibold text-center text-xl">Leave a Comment</h3>
           <form onSubmit={handleSubmit} className="block">
             <input
               type="text"
@@ -139,7 +139,7 @@ function ProductReview({ initialReviews }) {
               type="submit"
               className="bg-black hover:bg-white px-4 py-2 border border-black rounded-lg w-full text-white hover:text-black transition"
             >
-              Submit Review
+              Submit
             </button>
           </form>
         </div>
