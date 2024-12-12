@@ -15,6 +15,9 @@ export default {
       fontFamily: {
         ubuntu: ['Ubuntu', 'sans-serif'],
       },
+      maxWidth: {
+        '7xl': '1920px', // Updates the 7xl to be 100rem (1600px)
+      },
     },
   },
   plugins: [],
